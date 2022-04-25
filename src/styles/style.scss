@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+} 
+body{
+  font-family: 'swis721-blk-bt-black', 'Open Sans', sans-serif
+} 
+.header_bg{
+    background-image: url(../assets/Group11.svg);
+    height: 100vh;
+    width: 100wh;
+    background-size: cover;
+    justify-content: center;
+    .head-title {
+        margin: 210px 0 0 120px;
+        justify-content: center;
+        align-items: center;
+        font-size: 90px;
+        color:#0099ff;
+        direction: row;
+        display: grid;
+        grid-gap: 5px;
+        .dev{
+            color: black
+        }
+        .combine{
+            font-size: 16px;
+            color: black;
+            margin-top: 18px;
+        }
+    }
+}
+.header{
+    display: flex;
+    direction: column;
+    justify-content: space-between;
+    .head_container{
+        display: flex;
+        direction: column;
+         .logo-title{
+            margin: 45px 0 0 67px;
+            width: 210px;
+            height: 30px;
+            font-size: 32px;
+        }
+        .head{
+            padding: 25px 0 0 70px;
+            .head_logo{
+                width: 210px;
+                height: 54px;
+            }
+        }
+    }
+    .menu{
+        margin: 17px 75px 0 0;
+        display: flex;
+        align-items: center; 
+        width: 50px;
+        height: 50px;
+    } 
+   
+}
+.about{
+    background-image: url(../assets//aboutUs.svg);
+    height: 100vh;
+    width: 100wh;
+    background-size: cover;
+}
+.aboutContent{
+    justify-content: center;
+    align-items: center;
+    margin: 140px 70px 0 140px;
+    display:flex;
+    direction: "column"
+}
+.aboutText{
+    justify-content: center;
+    align-items: center;
+    direction: row;
+    display: grid;
+    grid-gap: 30px;
+   
+}
+.aboutbtn{
+    width: 190px;
+    height: 50px
+}
+
+

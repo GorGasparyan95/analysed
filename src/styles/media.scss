@@ -1,0 +1,98 @@
+@media( max-width: 900px) {
+  .logo-title {
+    display: none
+  }
+}
+@media( max-width: 900px) {
+  .header_bg {
+    background-image: url(../assets/maskGroup.svg) !important;;
+    .head-title {
+      margin: 210px 0 0 0 !important;
+      .team{font-size: 70px;
+      }
+    .dev{
+      font-size: 70px;
+    }
+    }
+  }
+  }
+
+@media( max-width: 600px) {
+  .header_bg {
+    background-image: none !important;
+    .head-title {
+      margin: 70px 15px 15px 15px !important;
+      .team{font-size: 30px;
+      }
+    .dev{
+      font-size: 30px;
+    }
+    .combine{
+      font-size: 14px;
+     }
+    }
+   }
+  }
+ 
+@media( max-width: 600px) {
+  .header{
+    .head_container{
+        .head{
+            padding: 15px 0 0 15px;
+            .head_logo {
+              width: 115px;
+              height: 30px;
+          }
+           
+            }
+            
+        }
+        .menu{
+          margin: 15px 15px 0 0;
+          display: flex;
+          align-items: center; 
+          width: 40px;
+          height: 30px;
+      } 
+    }
+  }
+  @media( max-width: 900px) {
+    .header{
+      .head_container{
+          .head{
+              padding: 15px 0 0 15px;
+              } 
+          }
+          .menu{
+            margin: 15px 15px 0 0;
+            display: flex;
+            align-items: center; 
+        } 
+        } 
+      }
+      .header_bg{
+        background-image: url(../assets/Group11.svg);
+        height: 100vh;
+        width: 100wh;
+        background-size: cover;
+        justify-content: center;
+        .head-title {
+            margin: 210px 0 0 120px;
+            justify-content: center;
+            align-items: center;
+            font-size: 90px;
+            color:#0099ff;
+            direction: row;
+            display: grid;
+            grid-gap: 5px;
+            .dev{
+                color: black
+            }
+            .combine{
+                font-size: 16px;
+                color: black;
+                margin-top: 18px;
+            }
+        }
+    }
+
