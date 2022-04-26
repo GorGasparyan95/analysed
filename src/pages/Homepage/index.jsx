@@ -3,21 +3,23 @@ import Header from "../../components/Header";
 import AboutUs from "./AboutUs";
 import Services from "./Services";
 import Footer from "../../components/Footer";
+import Carousel from "../../components/Carousel";
 
 const Homepage = () => {
   return (
     <div>
-     <Header />
-     <div className="head_main">
-       <div className="head_content">
-       <h1 className="head_title">We are a team of</h1>
-       <h2 className="head_title anim">developers</h2>
-       <p className="head_text">We combine the world’s most powerful mathematics<br></br> engine with business, industry and production.</p>
-       </div>
-     </div>
-     <AboutUs />
-     <Services />
-     <Footer />
+      <Header />
+      <div className="head_main">
+        <div className="head_content">
+          <h1 className="head_title">We are a team of</h1>
+          <h2 className="head_title anim">developers</h2>
+          <p className="head_text">We combine the world’s most powerful mathematics<br></br> engine with business, industry and production.</p>
+        </div>
+      </div>
+      <AboutUs />
+      <Services />
+      <Footer />
+      <Carousel />
     </div>
 
   )

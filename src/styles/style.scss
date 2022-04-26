@@ -214,6 +214,46 @@ body {
     }
 
 }
+.carousel_container{
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+ align-items: center;
+
+
+  margin: auto;
+    .items_container{
+      display: flex;
+      overflow: hidden;
+      justify-content: space-between;
+      width:800px
+    }
+ 
+ .single_item{
+  padding: 50px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ }
+ .dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #f1f1f1;
+  margin: 0 5px;
+  background: green;
+}
+.dactive {
+     width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #f1f1f1;
+  margin: 0 5px;
+  background: blue;
+}
+}
+
 
 
 
