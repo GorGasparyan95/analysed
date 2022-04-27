@@ -1,3 +1,3 @@
 
 
- export const ServiceTitles = ["Software Development", "Data science", "Mathematical modelling", "Big data solutions"]
+ export const carouselSrc = ["./assets/images/azgayin.png",  "./assets/images/Moris.png", "./assets/images/Soft.png"]
