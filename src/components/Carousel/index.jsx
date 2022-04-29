@@ -10,10 +10,10 @@ const Carousel = () => {
   const listRef = useRef(null);
 
   const scrollLeft = () => {
-    if (listRef.current) {
+    if (listRef.current && slide >= 0) {
       listRef.current.scrollBy({
         top: 0,
-        left: -350,
+        left: -360,
         behavior: "smooth",
       });
     }
@@ -23,10 +23,10 @@ const Carousel = () => {
 
 
   const scrollRight = () => {
-    if (listRef.current) {
+    if (listRef.current && slide !== 2) {
       listRef.current.scrollBy({
         top: 0,
-        left: 350,
+        left: 360,
         behavior: "smooth",
       });
     }

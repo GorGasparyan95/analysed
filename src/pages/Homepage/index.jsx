@@ -22,7 +22,6 @@ const Homepage = () => {
       <Services />
       <MainFooter />
     </div>
-
   )
 }
 

@@ -10,7 +10,7 @@ $white: #F8F8F8;
 }
 
 body {
-    font-family: 'swis721-blk-bt-black', 'Open Sans', sans-serif
+    font-family: 'Swis721 Blk BT', 'Open Sans'
 }
 
 .navbar {
@@ -37,7 +37,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 85vh;
+        height: 80vh;
         flex-direction: column;
         direction: column;
 
@@ -50,17 +50,20 @@ body {
             color: $Blue;
             font-size: 85px;
             font-weight: 900;
+            font-family: 'Swis721 Blk BT'
 
         }
 
         .anim {
             color: black;
+            font-family: 'Swis721 Blk BT'
         }
 
         .head_text {
             margin-top: 40px;
             font-size: 16px;
             font-weight: 900;
+            font-family: 'Open Sans'
         }
     }
 
@@ -70,20 +73,23 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+
     width: 100%;
     box-shadow: 0px 25px 75px rgba(44, 44, 44, 0.44);
     background: $white;
 
     .main_btn_mob {
         display: none !important;
+        font-family: 'Open Sans'
         ;
     }
 
     .main_about_title {
         font-weight: 900;
         font-size: 100px;
-        padding: 0 0 0 75px;
+       
+        font-family: 'Swis721 Blk BT'
+
 
     }
 
@@ -94,12 +100,14 @@ body {
 
         .main_about_content {
             display: grid;
-            gap: 20px;
-            padding: 35px 0 0 75px;
+            gap: 30px;
+            padding: 140px 0 150px 75px;
 
             .main_about_text {
                 font-weight: 400;
                 font-size: 16px;
+                max-width: 560px;
+                font-family: 'Open Sans'
             }
 
             .main_btn {
@@ -108,6 +116,7 @@ body {
                 color: $Blue;
                 border: 1px solid $Blue;
                 background: transparent;
+                font-family: 'Open Sans';
 
                 &:hover {
                     background: $Blue;
@@ -124,17 +133,18 @@ body {
         .main_about_img {
             display: flex;
             justify-content: center;
-
-            margin-left: 150px;
-            padding: 0 140px 0 0;
+            align-items: center;
+            width: 350px;
+            // margin-left: 138px;
+            // padding: 0 134px 0 0;
 
         }
 
         .main_people_about {
 
 
-            min-width: 300px;
-            max-height: 278px;
+           width: 100%;
+           
 
         }
     }
@@ -148,13 +158,18 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
+
     background: #2C2C2C;
-    .main_services_title_mob{
+
+    .main_services_title_mob {
         display: none !important;
+        font-family: 'Swis721 Blk BT'
+        
     }
-    .main_services_btn_mob{
+
+    .main_services_btn_mob {
         display: none !important;
+        font-family: 'Open Sans'
     }
 
     .main_services_title {
@@ -162,6 +177,8 @@ body {
         font-size: 100px;
         color: #9E9E9E;
         margin-top: 40px;
+        font-family: 'Swis721 Blk BT';
+        margin-bottom: 40px;
     }
 
     .main_grid {
@@ -174,7 +191,8 @@ body {
     }
 
     .main_services_btn {
-        margin-bottom: 40px;
+        margin-bottom: 80px;
+        margin-top: 85px;
         width: 176px;
         height: 44px;
         border: 1px solid $Blue;
@@ -189,8 +207,7 @@ body {
 }
 
 .servicecard_main {
-    width: 300px;
-
+  width: 300px;
     .servicecard {
         display: flex;
         flex-direction: row;
@@ -204,11 +221,13 @@ body {
         color: #FFFFFF;
         font-size: 25px;
         margin-left: 20px;
+        font-family: 'Swis721 Blk BT'
     }
 
     .servicecard_text {
         color: #FFFFFF;
         font-size: 14px;
+        font-family: 'Open Sans'
     }
 
 
@@ -216,10 +235,10 @@ body {
 }
 
 .footer {
-    height: 400px;
+
 
     .footer_wrapper {
-        padding: 143px 70px 0 85px;
+        padding: 143px 70px 60px 85px;
 
         .footer_content {
             display: flex;
@@ -232,7 +251,7 @@ body {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            height: 100%;
+
         }
 
         .footer_right_content {
@@ -241,6 +260,8 @@ body {
             font-weight: 700;
             font-size: 16px;
             row-gap: 10px;
+            align-items: flex-end;
+            font-family: 'Open Sans'
         }
 
         .footer_menu {
@@ -250,6 +271,10 @@ body {
             font-weight: 900;
             font-size: 16px;
             width: 250px;
+            font-family: 'Swis721 Blk BT';
+            margin-bottom: 80px 
+          
+            
 
         }
 
@@ -270,11 +295,20 @@ body {
             background: $Blue;
             color: white;
             border: 1px solid $Blue;
+            font-family: 'Open Sans'
         }
 
         .footer_logo {
             margin-bottom: 40px;
         }
+    }
+
+    .footer_social {
+        margin-left: 12px
+    }
+
+    .footer_logo_mob {
+        display: none !important;
     }
 
 }
@@ -286,6 +320,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 120px 75px 0 85px;
+    padding: 100px 0 70px 0;
 
     .carousel_container {
         display: flex;
@@ -295,14 +330,16 @@ body {
         width: 100%;
 
         .items_container {
-            display: flex;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+            grid-column-gap: 130px;
+            grid-row-gap: 0px;
             overflow: hidden;
-            justify-content: space-between;
             width: 75%;
         }
 
         .single_item {
-            padding: 0 150px 0 0;
 
             cursor: pointer;
             display: flex;
@@ -333,8 +370,8 @@ body {
 }
 
 .main_footer {
-    height: 100vh;
+
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
 }

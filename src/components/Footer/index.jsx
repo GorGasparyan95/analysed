@@ -8,6 +8,7 @@ const Footer = () => {
       <div className='footer_wrapper'>
         <img src="assets/images/logo2.png" className='footer_logo' />
         <div className='footer_content' >
+        <img src="assets/images/logo2.png" className='footer_logo_mob' />
           <div className='footer_left_content'>
             <div className='footer_menu'>
               <p>About</p>
@@ -25,7 +26,7 @@ const Footer = () => {
             <p>+(374) 55 303 516</p>
             <div>
               <Linkedin />
-              <Fb />
+              <Fb className='footer_social'/>
             </div>
           </div>
         </div>
