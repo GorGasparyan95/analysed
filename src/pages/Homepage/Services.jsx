@@ -13,9 +13,9 @@ const Services = () => {
   return (
     <div className="main_services">
       <h2 className='main_services_title'>Services</h2>
-      <h2 className='main_services_title_mob'>Service</h2>
+    
       <div className="main_grid">
-        <div className="a">
+
         <ServiceCard
           icon={<Soft />}
           title={"Software Development"}
@@ -26,8 +26,7 @@ const Services = () => {
           title={"Data science"}
           description={"We’ll take your data requirements and create powerful analytical modules that help you identify insight gaps, spot..."}
         />
-        </div>
-        <div>
+
         <ServiceCard
           icon={<MathModel />}
           title={"Mathematical modelling"}
@@ -38,8 +37,7 @@ const Services = () => {
           title={"Big data solutions"}
           description={"Using mathematical and statistical modeling and simulation Big Data analytics solutions provided by Analysed help you..."}
         />
-        </div>
-        
+
       </div>
 
       <button className="main_services_btn">More</button>

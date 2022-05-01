@@ -70,43 +70,54 @@ body {
 }
 
 .wrapper_main_about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
+    justify-content: center;
     width: 100%;
     box-shadow: 0px 25px 75px rgba(44, 44, 44, 0.44);
     background: $white;
-
-    .main_btn_mob {
-        display: none !important;
-        font-family: 'Open Sans'
-        ;
-    }
+    padding: 140px 0 140px 0;
 
     .main_about_title {
         font-weight: 900;
         font-size: 100px;
-       
-        font-family: 'Swis721 Blk BT'
+        font-family: 'Swis721 Blk BT';
+
 
 
     }
 
+    .main_about_title_tab {
+        display: none;
+        font-weight: 900;
+        font-size: 100px;
+        font-family: 'Swis721 Blk BT';
+    }
+
     .main_about_content_wrapper {
-        display: grid;
+        display: flex;
         flex-direction: row;
-        grid-template-columns: auto auto;
+
+        // display: grid;
+        // grid-template-columns: repeat(2, 1fr);
+        // grid-template-rows: repeat(3, 1fr);
+        // ;
 
         .main_about_content {
-            display: grid;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
             gap: 30px;
-            padding: 140px 0 150px 75px;
+            padding: 0 0 0 75px;
+            width: 55%;
+
+            .main_about_title {
+                grid-column: span 3;
+
+            }
 
             .main_about_text {
                 font-weight: 400;
                 font-size: 16px;
-                max-width: 560px;
                 font-family: 'Open Sans'
             }
 
@@ -125,6 +136,7 @@ body {
                 }
             }
 
+
         }
 
 
@@ -134,17 +146,23 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 350px;
+            width: 45%;
             // margin-left: 138px;
             // padding: 0 134px 0 0;
+
+        }
+
+        .main_btn_mob {
+            display: none !important;
+            font-family: 'Open Sans';
 
         }
 
         .main_people_about {
 
 
-           width: 100%;
-           
+            width: 100%;
+
 
         }
     }
@@ -161,11 +179,7 @@ body {
 
     background: #2C2C2C;
 
-    .main_services_title_mob {
-        display: none !important;
-        font-family: 'Swis721 Blk BT'
-        
-    }
+
 
     .main_services_btn_mob {
         display: none !important;
@@ -184,9 +198,12 @@ body {
     .main_grid {
         display: grid;
         grid-template-columns: auto auto;
-        gap: 100px 250px;
+        gap: auto auto;
         justify-content: center;
         align-items: center;
+        gap: 100px 150px;
+
+
 
     }
 
@@ -207,7 +224,9 @@ body {
 }
 
 .servicecard_main {
-  width: 300px;
+
+    width: 100%;
+
     .servicecard {
         display: flex;
         flex-direction: row;
@@ -215,19 +234,23 @@ body {
         align-items: center;
 
 
+
     }
 
     .servicecard_title {
         color: #FFFFFF;
         font-size: 25px;
-        margin-left: 20px;
-        font-family: 'Swis721 Blk BT'
+        margin-left: 25px;
+        font-family: 'Swis721 Blk BT';
+        width: 140px
     }
 
     .servicecard_text {
         color: #FFFFFF;
         font-size: 14px;
-        font-family: 'Open Sans'
+        font-family: 'Open Sans';
+        width: 290px;
+
     }
 
 
@@ -248,6 +271,8 @@ body {
         }
 
         .footer_left_content {
+            float: left;
+            width: 50%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -255,6 +280,7 @@ body {
         }
 
         .footer_right_content {
+            float: right;
             display: flex;
             flex-direction: column;
             font-weight: 700;
@@ -272,10 +298,7 @@ body {
             font-size: 16px;
             width: 250px;
             font-family: 'Swis721 Blk BT';
-            margin-bottom: 80px 
-          
-            
-
+            margin-bottom: 80px
         }
 
         .footer_input_wrapper {
@@ -286,7 +309,7 @@ body {
         }
 
         .footer_input {
-            width: 564px;
+            width: 100%;
             border: 1px solid $Blue;
         }
 
@@ -307,9 +330,7 @@ body {
         margin-left: 12px
     }
 
-    .footer_logo_mob {
-        display: none !important;
-    }
+
 
 }
 

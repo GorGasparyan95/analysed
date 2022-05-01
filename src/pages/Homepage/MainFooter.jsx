@@ -5,10 +5,10 @@ import Carousel from "../../components/Carousel";
 
 const MainFooter = () => {
   return (
-     <div className='main_footer'>
-      <Carousel />
+    <div className='main_footer'>
+      {/* <Carousel /> */}
       <Footer />
-     </div>
+    </div>
   )
 }
 

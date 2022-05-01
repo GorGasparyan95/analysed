@@ -3,6 +3,7 @@ import React from "react";
 const AboutUs = () => {
   return (
     <div className="wrapper_main_about">
+      <h2 className="main_about_title_tab">About us</h2>
       <div className="main_about_content_wrapper">
         <div className="main_about_content">
           <h2 className="main_about_title">About us</h2>
