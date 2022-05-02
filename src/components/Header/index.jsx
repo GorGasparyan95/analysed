@@ -1,15 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { ReactComponent as Menu } from '../../assets/Group.svg'
+import Hamburger from '../Hamburger'
 
 
 const Header = () => {
+  const [open, setOpen] = useState(false)
   return (
-    <div className='navbar'>
-      <img src='./assets/images/logo.png' className='navbar_logo' />
-      <div >  
-         <Menu className='navbar_menu' />
+    <>
+      <Hamburger open={open} setOpen={setOpen} />
+      <div className='navbar'>
+        <img src='./assets/images/logo.png' className='navbar_logo' />
+        <div onClick={() => setOpen(true)}>
+          <Menu className='navbar_menu' />
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 

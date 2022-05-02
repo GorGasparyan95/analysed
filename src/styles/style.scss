@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 25px 60px 0 60px;
+    padding: 25px 60px 0 60px;
 
     .navbar_logo {
         width: 210px;
@@ -32,6 +32,13 @@ body {
 
 .head_wrapper {
     height: 100vh;
+
+    background-image: url('../../public/assets/images/HomeGroup.png');
+    background-size: cover;
+
+
+
+
 
     .head_main {
         display: flex;
@@ -69,20 +76,22 @@ body {
 
 }
 
+
 .wrapper_main_about {
 
     justify-content: center;
-    width: 100%;
+
     box-shadow: 0px 25px 75px rgba(44, 44, 44, 0.44);
     background: $white;
     padding: 140px 0 140px 0;
+    background-image: url('../../public//assets/images/AboutGroup.png');
+    background-size: cover;
+
 
     .main_about_title {
         font-weight: 900;
         font-size: 100px;
         font-family: 'Swis721 Blk BT';
-
-
 
     }
 
@@ -96,11 +105,6 @@ body {
     .main_about_content_wrapper {
         display: flex;
         flex-direction: row;
-
-        // display: grid;
-        // grid-template-columns: repeat(2, 1fr);
-        // grid-template-rows: repeat(3, 1fr);
-        // ;
 
         .main_about_content {
             display: flex;
@@ -138,8 +142,6 @@ body {
 
 
         }
-
-
 
 
         .main_about_img {
@@ -330,50 +332,139 @@ body {
         margin-left: 12px
     }
 
-
-
 }
 
 .carousel_wrapper {
-    display: flex;
-    flex-direction: row;
 
-    justify-content: space-between;
-    align-items: center;
-    margin: 120px 75px 0 85px;
+    margin: 120px 0 120px 0;
     padding: 100px 0 70px 0;
 
-    // .single_item {
-
-    //     cursor: pointer;
-    //     display: flex;
-    //     flex-direction: row;
-    //     align-items: center;
-    // }
-
-
-    // .radio_wrapper {
-    //     display: flex;
-    //     flex-direction: row;
-    //     margin-top: 80px;
-    // }
     .carousel_btn {
         background: transparent;
-        margin: 0 30px 0 30px;
+        padding: 20px 30px 20px 30px;
         border: none;
     }
 
     .carousel_items_wrapper {
         display: flex;
         flex-direction: row;
-        gap: 15px
+        justify-content: center;
+        align-items: flex-start;
+        height: 90px;
+
+
+    }
+
+    .carousel_image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 }
 
 .main_footer {
-
+    background-image: url('../../public/assets/images/footer.png');
+    background-size: cover;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+}
+
+.hamburger {
+    background: rgba(14, 14, 14, 0.84);
+    height: 100%;
+    width: 35%;
+    z-index: 1000;
+    float: right;
+    position: absolute;
+    right: 0;
+
+    .hamburger_menu_icon {
+        display: flex;
+        justify-content: flex-end;
+        padding: 5% 15% 0 0;
+
+    }
+
+    .hamburger_menu {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 55px;
+        margin: auto
+    }
+
+    .hamburger_link {
+        font-size: 30px;
+        color: #FFFFFF;
+        font-weight: 900;
+        text-decoration: none;
+    }
+}
+
+.aboutus_header {
+    height: 100vh;
+
+    .aboutus_title_wrapper {
+        display: flex;
+        flex-direction: row;
+        bottom: 50px;
+        left: 150px;
+        position: absolute;
+
+        .aboutus_title_about {
+            color: #FFFFFF;
+            font-weight: 900;
+            font-size: 85px;
+            font-family: 'Swis721 Blk BT'
+        }
+
+        .aboutus_title_us {
+            color: $Blue;
+            font-weight: 900;
+            font-size: 85px;
+            padding-left: 20px;
+            font-family: 'Swis721 Blk BT'
+        }
+    }
+
+    .aboutus_bg {
+        background-image: url('../../public/assets/images/aboutus.png');
+        background-size: cover;
+        height: calc(100vh - 75px);
+
+    }
+}
+
+.aboutuscontent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 70px 0 70px 70px;
+
+    .aboutuscontent_text {
+        font-family: 'Open Sans';
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        font-weight: 400;
+        font-size: 20px;
+        width: 50%;
+
+    }
+
+    .aboutuscontent_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        
+
+    }
+    .aboutuscontent_imgw{
+        width: 100%;
+    }
 }

@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+
 
 const AboutUs = () => {
+
   return (
     <div className="wrapper_main_about">
+     
       <h2 className="main_about_title_tab">About us</h2>
       <div className="main_about_content_wrapper">
         <div className="main_about_content">

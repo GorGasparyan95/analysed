@@ -1,0 +1,1 @@
+export const imageSrcs = ['./assets/images/azgayin.png', './assets/images/Moris.png', './assets/images/Soft.png', './assets/images/Soft.png', './assets/images/Soft.png' ]
