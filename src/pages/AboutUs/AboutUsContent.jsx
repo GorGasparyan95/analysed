@@ -18,7 +18,7 @@ const AboutUsContent = () => {
         </p>
       </div>
       <div className="aboutuscontent_img">
-        <img src="./assets/images/MaskGroup.png" className="aboutuscontent_imgw" />
+        <img src="./assets/images/MaskGroup.png" className="aboutuscontent_imgw" alt="MaskGroup" />
       </div>
     </div>
   )

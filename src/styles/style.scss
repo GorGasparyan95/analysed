@@ -406,7 +406,7 @@ body {
 }
 
 .aboutus_header {
-    height: 100vh;
+   
 
     .aboutus_title_wrapper {
         display: flex;
@@ -414,6 +414,7 @@ body {
         bottom: 50px;
         left: 150px;
         position: absolute;
+        
 
         .aboutus_title_about {
             color: #FFFFFF;
@@ -430,13 +431,15 @@ body {
             font-family: 'Swis721 Blk BT'
         }
     }
-
-    .aboutus_bg {
-        background-image: url('../../public/assets/images/aboutus.png');
-        background-size: cover;
-        height: calc(100vh - 75px);
-
+    .aboutus_header_img{
+        width: 100%;
+        object-fit: cover;
     }
+   .aboutus_bg{
+    // background: linear-gradient(0deg, rgba(37, 37, 37, 0.64), rgba(37, 37, 37, 0.64));
+       position: relative;
+       
+   }
 }
 
 .aboutuscontent {
@@ -461,10 +464,110 @@ body {
         justify-content: center;
         align-items: center;
         width: 45%;
-        
+
 
     }
-    .aboutuscontent_imgw{
+
+    .aboutuscontent_imgw {
         width: 100%;
+    }
+}
+
+.aboutus_team {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #2C2C2C;
+    padding: 40px 70px 40px 70px;
+
+    .aboutus_team_content {
+        padding: 70px 0 80px 0;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 80px
+    }
+
+    .aboutus_team_title {
+        font-family: 'Swis721 Blk BT';
+        font-weight: 900;
+        font-size: 100px;
+        color: #9E9E9E;
+    }
+
+    .aboutus_tean_btn {
+
+        width: 176px;
+        height: 44px;
+        border: 1px solid $Blue;
+        background: transparent;
+        color: $Blue;
+
+        &:hover {
+            background: $Blue;
+            color: white;
+        }
+    }
+}
+
+.teamcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    .teamcard_image {
+        border-radius: 50%;
+        width: 100%;
+    }
+
+    .teamcard_image_color {
+        display: none;
+        border-radius: 50%;
+        width: 100%;
+    }
+
+    .teamcard_title {
+        font-family: 'Swis721 Blk BT';
+        font-weight: 900;
+        font-size: 25px;
+        color: #FFFFFF;
+    }
+
+    .teamcard_text {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+    .teamcard_svgcolor{
+        display: none;
+    }
+
+    &:hover {
+
+        .teamcard_image {
+            display: none;
+        }
+
+        .teamcard_image_color {
+            display: block;
+        }
+        .teamcard_title {
+           
+            color: $Blue;
+        }
+        .teamcard_text {
+          
+            color: $Blue;
+        }
+        .teamcard_svgcolor{
+            display: block;
+        }
+        .teamcard_svg{
+            display: none
+        }
     }
 }

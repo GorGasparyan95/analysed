@@ -1,5 +1,5 @@
 @media(max-width: 768px) {
- 
+
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -7,7 +7,7 @@
     padding: 25px 15px 0 0 !important;
     margin: 0 !important;
 
-}
+  }
 
   .head_main {
     align-items: flex-start !important;
@@ -80,9 +80,11 @@
       }
     }
   }
-.main_footer{
-  background-image: none !important;
-}
+
+  .main_footer {
+    background-image: none !important;
+  }
+
   .footer {
 
 
@@ -91,6 +93,30 @@
     }
   }
 
+  .aboutus_header {
+    .aboutus_title_wrapper {
+      bottom: 30% !important;
+      left: 15px !important;
+    }
+  }
+
+  .aboutuscontent {
+    flex-direction: column;
+    padding: 30px 15px 120px 15px;
+
+    .aboutuscontent_text {
+      width: 100%;
+    }
+
+    .aboutuscontent_img {
+      padding: 110px 0 0 0;
+      width: 70%;
+    }
+
+    .aboutuscontent_imgw {
+      width: 100%;
+    }
+  }
 }
 
 @media(max-width: 450px) {
@@ -137,19 +163,6 @@
 
     margin: 30px 10px 0 10px;
   }
-
-
-
-  // .footer {
-  //   .footer_wrapper {
-  //     padding: 46px 15px 95px 15px !important;
-
-  //     .footer_input {
-  //       width: 215px !important
-  //     }
-  //   }
-
-  // }
 
   .wrapper_main_about {
     box-shadow: none !important;
@@ -219,6 +232,49 @@
     width: auto !important;
     padding: 0 15px 0 15px !important;
   }
+
+  .aboutus_header {
+    .aboutus_title_wrapper {
+      bottom: 40% !important;
+
+    }
+
+    .aboutus_title_about {
+
+      font-size: 30px !important;
+    }
+
+    .aboutus_title_us {
+      font-size: 30px !important;
+    }
+  }
+
+  .aboutuscontent {
+    flex-direction: column;
+    padding: 30px 15px 30px 15px;
+
+    .aboutuscontent_text {
+
+      font-size: 14px;
+    }
+
+    .aboutuscontent_img {
+      padding: 0;
+      width: 100%;
+    }
+
+    .aboutuscontent_imgw {
+      width: 100%;
+    }
+  }
+
+  .aboutus_team {
+    .aboutus_team_title {
+      font-size: 30px;
+
+    }
+  }
+
 }
 
 
@@ -275,7 +331,29 @@
   }
 }
 
+@media(max-width: 1060px) {
 
+  .aboutus_team_content {
+    display: grid !important;
+
+
+    grid-template-columns: auto auto !important;
+    grid-template-rows: auto auto !important;
+  }
+
+}
+
+@media(max-width: 570px) {
+
+  .aboutus_team_content {
+    display: grid !important;
+
+
+    grid-template-columns: auto !important;
+    grid-template-rows: auto !important;
+  }
+
+}
 
 // @media(max-width: 1100px) {
 //   .wrapper_main_about {
