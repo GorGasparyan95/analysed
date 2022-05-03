@@ -1,5 +1,6 @@
 import AboutUs from "./AboutUs";
 import Homepage from "./Homepage";
+import Services from "./Services";
 
 const config = [
     {
@@ -9,6 +10,10 @@ const config = [
     {
         path: '/about',
         element: <AboutUs />
+    },
+    {
+        path: '/services',
+        element: <Services/>
     }
 ]
 

@@ -19,10 +19,10 @@ const Hamburger = ({ setOpen, open }) => {
             <Link to="/about" className='hamburger_link'>
               <p>About</p>
             </Link>
-            {/* <Link>
-              <p>Service</p>
+            <Link to="/services" className='hamburger_link'>
+              <p>Services</p>
             </Link>
-            <Link>
+            {/* <Link>
               <p>Contact</p>
             </Link> */}
           </div>

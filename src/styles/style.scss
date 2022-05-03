@@ -406,7 +406,7 @@ body {
 }
 
 .aboutus_header {
-   
+
 
     .aboutus_title_wrapper {
         display: flex;
@@ -414,7 +414,7 @@ body {
         bottom: 50px;
         left: 150px;
         position: absolute;
-        
+
 
         .aboutus_title_about {
             color: #FFFFFF;
@@ -431,15 +431,17 @@ body {
             font-family: 'Swis721 Blk BT'
         }
     }
-    .aboutus_header_img{
+
+    .aboutus_header_img {
         width: 100%;
         object-fit: cover;
     }
-   .aboutus_bg{
-    // background: linear-gradient(0deg, rgba(37, 37, 37, 0.64), rgba(37, 37, 37, 0.64));
-       position: relative;
-       
-   }
+
+    .aboutus_bg {
+        // background: linear-gradient(0deg, rgba(37, 37, 37, 0.64), rgba(37, 37, 37, 0.64));
+        position: relative;
+
+    }
 }
 
 .aboutuscontent {
@@ -542,7 +544,8 @@ body {
         font-size: 20px;
         color: #FFFFFF;
     }
-    .teamcard_svgcolor{
+
+    .teamcard_svgcolor {
         display: none;
     }
 
@@ -555,19 +558,66 @@ body {
         .teamcard_image_color {
             display: block;
         }
+
         .teamcard_title {
-           
+
             color: $Blue;
         }
+
         .teamcard_text {
-          
+
             color: $Blue;
         }
-        .teamcard_svgcolor{
+
+        .teamcard_svgcolor {
             display: block;
         }
-        .teamcard_svg{
+
+        .teamcard_svg {
             display: none
         }
+    }
+}
+
+.services {
+    background: #2C2C2C;
+    box-shadow: 0px 25px 75px rgba(44, 44, 44, 0.44);
+    padding: 40px 75px 100px 75px;
+    .services_header{
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        width: 60%;
+        margin-bottom: 120px;
+    }
+
+    .services_title {
+        font-family: 'Swis721 Blk BT';
+        font-weight: 900;
+        font-size: 100px;
+        color: #9E9E9E;
+    }
+
+    .services_description {
+        font-family: 'Swis721 Blk BT';
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 60px;
+        color: #FFFFFF;
+    }
+
+    .services_text {
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+
+        color: #FFFFFF;
+    }
+
+    .services_grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 140px 300px;
     }
 }
