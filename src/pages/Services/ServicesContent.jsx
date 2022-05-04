@@ -28,14 +28,15 @@ const ServicesContent = () => {
         <ServiceCard
           icon={<MathModel />}
           title={"Mathematical modelling"}
-          description={"Our team of highly professional mathematicians transforms your real-world problems into mathematical formulas and gives solutions for businesses, helps to develop scientific insights and make effective decisions. Our efforts are devoted to mathematical modelling in productions, operations and finances. We will help you find out the difficult chemical, physical and other processes in your production by creating simulating models. Our scientists will develop mathematical models based on your data and help save a huge amount of resources on laboratory experiments. We will contribute to launching your products several times faster, and increase the efficiency of your production."}
+          description={"Our team of highly professional mathematicians transforms your real-world problems into mathematical formulas and gives solutions for businesses, helps to develop scientific insights and make effective decisions. Our efforts are devoted to mathematical modelling in productions, operations and finances."}
+          line2={" We will help you find out the difficult chemical, physical and other processes in your production by creating simulating models. Our scientists will develop mathematical models based on your data and help save a huge amount of resources on laboratory experiments. We will contribute to launching your products several times faster, and increase the efficiency of your production."}
         />
         <ServiceCard
           icon={<BigData />}
           title={"Big data solutions"}
-          description={`Using 
-          mathematical 
-           and statistical modeling and simulation Big Data analytics solutions provided by Analysed help you...`}
+          description={"In this highly competitive world, we often see many companies struggling to manage data. To harness the full potential of big data, you need to develop a deep understanding of it."}
+          line2={"Mathematical and statistical modeling and simulation Big Data analytics solutions provided by Analysed help you develop an in-depth understanding of advanced analytic techniques to manage and process huge data sets. Our services can help your businesses break data silos and extract valuable information to drive business efficiencies and grab opportunities on a real-time basis."}
+          line3={" In the ever-expanding world of technology where the smallest of information can thrive your business, the importance of big data analytics cannot be undermined. With big data analytics, companies can enhance their decision-making abilities and explore plenty of opportunities waiting to be tapped."}
         />
       </div>
     </div>
