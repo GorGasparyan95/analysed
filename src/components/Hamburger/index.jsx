@@ -22,9 +22,9 @@ const Hamburger = ({ setOpen, open }) => {
             <Link to="/services" className='hamburger_link'>
               <p>Services</p>
             </Link>
-            {/* <Link>
+            <Link to="/aboutus" className='hamburger_link'>
               <p>Contact</p>
-            </Link> */}
+            </Link>
           </div>
         </div>)}
     </>

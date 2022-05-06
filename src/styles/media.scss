@@ -135,6 +135,36 @@
   .servicescard_text {
     width: 100%;
   }
+
+  .contactus_bg {
+    .contactus_title_wrapper {
+      left: 10px;
+      bottom: 10%
+    }
+  }
+
+  .contactuscontent_wrapper {
+    flex-direction: column;
+    gap: 80px;
+    padding: 100px 70px 100px 70px;
+
+    .contactuscontent_input_wrapper {
+      width: 100%;
+
+      input {
+        margin-bottom: 30px;
+      }
+
+      button {
+        margin: auto;
+      }
+    }
+
+    .google_map {
+      padding-top: 100%;
+    }
+  }
+
 }
 
 @media(max-width: 450px) {
@@ -299,35 +329,42 @@
 
     }
   }
-
   .services {
-
-
-
     .services_title {
-
       font-size: 30px;
-
     }
-
     .services_description {
-
       font-size: 30px;
-
     }
-
     .services_text {
-
       font-size: 14px;
-
-
     }
-
     .servicescard_text {
       font-size: 14px;
     }
   }
-
+  .contactus_bg {
+    .contactus_title_wrapper {
+      left: 15px;
+      bottom: 20%
+    }
+    .contactus_title_contact {
+      font-size: 30px;
+    }
+    .contactus_title_us {
+      font-size: 30px;
+      padding-left: 10px;
+    }
+  }
+  .contactuscontent_wrapper {
+    padding: 100px 15px 100px 15px;
+    gap:50px;
+    .contactuscontent_input_wrapper {
+        label {
+            font-size: 14px;
+        }
+    }
+}
 }
 
 
